@@ -6,11 +6,11 @@
 .banner {
     /* background-color: transparent; */
     position: sticky; /*WAS RELATIVE*/
-    top: 1px;
+    top: 0;
     /* height:320vh; */
 }
 .NavMenu {
-    background-color: transparent;
+    background-color: #ffe01b;
     position: absolute;
     /* top: 1px; */
     display: flex;
@@ -129,10 +129,11 @@
     text-decoration: none;
     color:#004e56;
     padding: 15px;
+    font-weight: bold;
 }
 .image img, .firstImage img, .secondImage img, .thirdImage img{
-    height: 30rem;
-    width: 550px;
+    height: 29rem;
+    width: 560px;
 }
 
 /* NEW SECTION */
@@ -293,4 +294,75 @@
     color: #004e56;
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
+}
+
+/* GROW WITH MAILCHIMP SECTION */
+
+#logoGrid {
+    padding: 7.5rem 0;
+    background-color: #f6f6f4;
+}
+.logoGridHeader {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topHeader {
+    text-align: center;
+    font-size: 3.375rem;
+    letter-spacing: -.03125rem;
+    margin-bottom: 1.25rem;
+}
+.lowerHeader {
+    font-size: 1.25rem;
+    text-align: center;
+
+}
+.logoContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.logoRow {
+    margin-bottom: 0 !important;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Logo {
+    padding: 2.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.logoImage img{
+    max-width: 8.75rem;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.logoMargin {
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#pushingForwardHeader {
+    padding-top: 7.5rem;
+    /* padding-bottom: 7.5rem; */
+    background-color: #fbeeca;
+}
+.pushingForwardHeaderContainer {
+    width: 37.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pushingForwardHeader {
+    font-size: 2rem;
+    text-align: center;
 }
