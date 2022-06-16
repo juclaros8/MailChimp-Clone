@@ -147,6 +147,7 @@
     font-family: 'Gentium Plus', serif;
     font-weight: lighter;
 }
+
 /* first NEW SECTION */
 .firstRowContent {
     padding-bottom: 60px;
@@ -365,4 +366,137 @@
 .pushingForwardHeader {
     font-size: 2rem;
     text-align: center;
+}
+
+/* #businessSection {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.businessContainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+.businessContent {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.imageContainer {
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+    opacity: 1;
+    transform: translate(0);
+}
+.img4 img{
+    width: 50%;
+}
+.textContainer {
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 126px;
+}
+.textContainerHeader {
+    font-size: 2rem;
+
+}
+.textContainerHeader2 {
+    margin-top: 1.8rem;
+}
+.textContainerHeader2 {
+    font-size: 1em;
+}
+.buttons {
+    margin-top: 3.125rem;
+} */
+
+#firstBusinessPart {
+    margin-top: 7.5rem;
+}
+.firstRowBusinessContent {
+    padding-bottom: 60px;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.firstRowBusinessContainer {
+    width: 100%;
+    
+    display: flex;
+    height: 100%;
+    flex-direction: row-reverse;
+    margin-top: 5rem;
+    /* justify-content: center; */
+
+}
+.firstRowBusinessText {
+    width: 100%;
+    padding-right: 8%;
+    /* margin-top:unset; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.firstRowBusinessTextHeader {
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    font-family: 'Cardo', serif;
+    font-family: 'Gentium Plus', serif;
+}
+.firstRowBusinessTextBody {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    font-family: 'PT Sans', sans-serif;
+}
+.link2 {
+    border: 1px solid #b2d7db;
+    padding: 20px 30px;
+    width: 45%;
+    text-align: center;
+    margin-top: 40px;
+}
+.link2 a {
+    color: #004e56;
+    font-weight: bold;
+}
+
+.secondRowBusinessContent {
+    padding-bottom: 60px;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.secondRowBusinessContainer {
+    width: 100%;
+    
+    display: flex;
+    height: 100%;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+}
+.secondRowBusinessText {
+    width: 100%;
+    padding-right: 8%;
+    /* margin-top:unset; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondRowBusinessTextHeader {
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    font-family: 'Cardo', serif;
+    font-family: 'Gentium Plus', serif;
+}
+.secondRowBusinessTextBody {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    font-family: 'PT Sans', sans-serif;
 }
