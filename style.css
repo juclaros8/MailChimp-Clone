@@ -474,7 +474,6 @@
 }
 .secondRowBusinessContainer {
     width: 100%;
-    
     display: flex;
     height: 100%;
     flex-direction: row-reverse;
@@ -499,4 +498,114 @@
     margin-top: 40px;
     font-size: 1.2rem;
     font-family: 'PT Sans', sans-serif;
+}
+
+#planSection {
+    background-color: #ffe01b;
+}
+.layout2 {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+.headerContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 62.5%;
+}
+.planHeader {
+    font-size: 4.6rem;
+    color: #241c15;
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+}
+.underHeader {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.underHeaderContent {
+    font-size: 1.5rem;
+    margin-top: 1.875rem;
+    color: #241c15;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: center;
+}
+.planContainer {
+    margin-top: 1.875rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.planButton {
+    color: #fff;
+    background-color: #007c89;
+    font-size: 1rem;
+    padding: 1.25rem 2.5rem;
+    cursor: pointer;
+}
+
+.footerContainer {
+    padding-top: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #efeeea;
+}
+.relatedLinks {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+}
+.relatedLinksList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.relatedLinksList h3 {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+.linkContainer {
+    margin-bottom: .625rem;
+    padding: 0 1rem;
+}
+.Links {
+    font-size: 1rem;
+    line-height: 2;
+}
+.linkClicks {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: none;
+    color: #241c15;
+}
+.linkContainer a:hover {
+    text-decoration: underline;
+}
+.footerLine {
+    background-color: #8c8c8c;
+    margin-top: 2rem !important;
+    margin-bottom: 3.125rem;
+    border: 0;
+    width: 100%;
+    height: .0625rem;
+    
+}
+ul {
+    list-style: none;
 }
