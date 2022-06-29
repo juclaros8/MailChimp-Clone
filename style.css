@@ -604,8 +604,65 @@
     border: 0;
     width: 100%;
     height: .0625rem;
-    
+
 }
 ul {
     list-style: none;
+}
+.footerProducts {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+}
+.footerProductsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.footerColumns {
+    margin: 0 30px;
+}
+.footerColumnHeader {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+}
+.items {
+    margin-bottom: .675rem;
+}
+.singleLinks {
+    color: #241c15;
+    font-size: .85rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.items a {
+    text-decoration: none;
+}
+.topcontent {
+    margin-bottom: 4.375rem;
+}
+.descriptions {
+    font-size: .9rem;
+    font-weight: 300;
+}
+.checkItOut {
+    margin-top: .75rem;
+}
+.checkItOutLink {
+    font-weight: 500;
+    font-size: .85rem;
+}
+.checkItOutLink{
+    cursor: pointer;
+    color: #241c15;
 }
