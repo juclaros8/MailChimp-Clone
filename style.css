@@ -132,8 +132,8 @@
     font-weight: bold;
 }
 .image img, .firstImage img, .secondImage img, .thirdImage img{
-    height: 29rem;
-    width: 560px;
+    height: 23rem;
+    width: 500px;
 }
 
 /* NEW SECTION */
@@ -519,7 +519,7 @@
     width: 62.5%;
 }
 .planHeader {
-    font-size: 4.6rem;
+    font-size: 2.5rem;
     color: #241c15;
     font-weight: 300;
     line-height: 1;
@@ -531,7 +531,7 @@
     width: 50%;
 }
 .underHeaderContent {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 1.875rem;
     color: #241c15;
     font-weight: 300;
@@ -648,8 +648,12 @@ ul {
 .items a {
     text-decoration: none;
 }
-.topcontent {
+.lastItemColumn {
     margin-bottom: 4.375rem;
+}
+.lastItemColumn img{
+    width: 65%;
+    margin-bottom: .5rem;
 }
 .descriptions {
     font-size: .9rem;
@@ -658,11 +662,41 @@ ul {
 .checkItOut {
     margin-top: .75rem;
 }
-.checkItOutLink {
+.LinkArrow {
+    margin-top: .75rem;
+}
+.arrow {
     font-weight: 500;
     font-size: .85rem;
-}
-.checkItOutLink{
     cursor: pointer;
     color: #241c15;
+}
+.footerColumns:last-child {
+    width: 15%;
+}
+.bottomContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.storeLinks {
+    width: 30%;
+    display: flex;
+}
+.stores {
+    margin:0 .4rem
+}
+.stores img {
+    max-width: 85%;
+    height: auto;
+}
+.socialMediaBlock {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.socialIcons {
+    margin: 0 .75rem .625rem;
 }
